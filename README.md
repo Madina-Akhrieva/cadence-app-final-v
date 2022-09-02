@@ -1,4 +1,4 @@
-#Description
+Description
 
 Create an Uber Cadence application.  
   
