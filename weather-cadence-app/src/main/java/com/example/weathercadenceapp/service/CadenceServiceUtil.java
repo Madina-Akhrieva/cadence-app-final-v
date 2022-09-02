@@ -9,7 +9,7 @@ import com.uber.cadence.worker.WorkerFactory;
 
 public class CadenceServiceUtil {
 
-    public static final String DOMAIN = "samples-domain";
+    public static final String DOMAIN = "Domain";
 
     public static final String TASK_LIST = "getTemperature";
 

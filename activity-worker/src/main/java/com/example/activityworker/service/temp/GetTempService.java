@@ -11,7 +11,7 @@ public class GetTempService {
 
     private final String URI = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s%s";
 
-    private final String API_ID = "ed245080b9d04d618ae9620884286324";
+    private final String API_ID = "84bb1ecc57cc7d532297adad642cf687";
 
     private final String METRIC = "&units=metric";
 

@@ -1,6 +1,6 @@
 package com.example.saver.service.temp;
 
-import com.example.saver.domain.CityTempMark;
+import com.example.saver.domain.CityTempMarkModel;
 import com.example.saver.mapper.CityTempMarkMapper;
 import com.example.saver.repository.CityTempMarkRepository;
 import com.persistance.dto.CityTempMarkDto;
@@ -17,7 +17,7 @@ public class SaveTempService {
     private final CityTempMarkMapper mapper;
 
     public CityTempMarkDto saveCityTempMark(TempDto tempDto) {
-        CityTempMark tempMark = repository.save(mapper.mapTempDtoInCityTempMark(tempDto));
+        CityTempMarkModel tempMark = repository.save(mapper.mapTempDtoInCityTempMark(tempDto));
         return mapper.mapCityTempMarkInCityTempMarkDto(tempMark);
     }
 }
